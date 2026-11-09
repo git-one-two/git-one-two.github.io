@@ -1,0 +1,1 @@
+async function e(){let[{init:e},{default:t}]=await Promise.all([import(`./index.browser-D0T7G4wR.js`),import(`./pdfium-BqtARJew.js`)]),n=await fetch(t);if(!n.ok)throw Error(`PDF引擎下载失败`);let r=await e({wasmBinary:new Uint8Array(await n.arrayBuffer()),thisProgram:`local-pdf-engine`});return r.PDFiumExt_Init(),r}export{e as loadNativePdfium};

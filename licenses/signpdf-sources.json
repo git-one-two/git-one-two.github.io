@@ -1,0 +1,14 @@
+{
+  "npmGitHead": "56f621c5b6b240f363927cdab47ec8e0bb9fa180",
+  "npmGitHeadStatus": "Not reachable in upstream API during inspection",
+  "sourceTag": "v4.0.0",
+  "sourceCommit": "6796acd70dfe7441110d4f6fcbcbdaf282fdd6e6",
+  "source": "https://github.com/vbuch/node-signpdf/blob/6796acd70dfe7441110d4f6fcbcbdaf282fdd6e6/LICENSE",
+  "sha256": "398160401e22f392b7fd3c8388c13b1b1a35e384eefd0bbded46a7b1fc6fc551",
+  "packages": [
+    "@signpdf/placeholder-pdf-lib@4.0.0",
+    "@signpdf/signpdf@4.0.0",
+    "@signpdf/signer-p12@4.0.0",
+    "@signpdf/utils@4.0.0"
+  ]
+}

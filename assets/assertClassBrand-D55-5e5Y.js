@@ -1,0 +1,1 @@
+function e(e,t,n){if(typeof e==`function`?e===t:e.has(t))return arguments.length<3?t:n;throw TypeError(`Private element is not present on this object`)}export{e as t};

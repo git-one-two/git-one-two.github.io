@@ -1,0 +1,1 @@
+const e=`AVIF`,t=`image/avif`,n=`avif`,r={quality:50,qualityAlpha:-1,denoiseLevel:0,tileColsLog2:0,tileRowsLog2:0,speed:6,subsample:1,chromaDeltaQ:!1,sharpness:0,tune:0,enableSharpYUV:!1,bitDepth:8,lossless:!1};export{r as defaultOptions,n as extension,e as label,t as mimeType};

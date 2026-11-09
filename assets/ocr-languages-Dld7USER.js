@@ -1,0 +1,1 @@
+var e=[{value:`chi_sim+eng`,label:`简体中文与英文`},{value:`chi_tra+eng`,label:`繁体中文与英文`},{value:`jpn+eng`,label:`日文与英文`},{value:`kor+eng`,label:`韩文与英文`},{value:`eng`,label:`英文`},{value:`fra+eng`,label:`法文与英文`},{value:`deu+eng`,label:`德文与英文`},{value:`spa+eng`,label:`西班牙文与英文`}],t=[`eng`,`chi_sim`,`chi_tra`,`jpn`,`kor`,`fra`,`deu`,`spa`];export{t as n,e as t};

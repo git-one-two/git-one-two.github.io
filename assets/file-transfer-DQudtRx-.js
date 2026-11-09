@@ -1,0 +1,1 @@
+var e,t;function n(n){if(!n.length||n.length>50||n.reduce((e,t)=>e+t.size,0)>104857600)throw Error(`继续处理每次最多50份、合计100MB，请分批选择。`);clearTimeout(e),e=setTimeout(()=>{t=void 0},3e5),t={files:n,expires:Date.now()+3e5}}function r(){clearTimeout(e);let n=t;return t=void 0,n&&n.expires>=Date.now()?n.files:[]}export{n,r as t};

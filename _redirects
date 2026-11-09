@@ -1,0 +1,3 @@
+# Cloudflare Pages SPA fallback.
+# Real static assets are served normally; unknown clean URLs fall back to the Vue app.
+/* /index.html 200

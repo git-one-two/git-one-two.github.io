@@ -1,0 +1,1 @@
+import{t as e}from"./worker-job-CEZMpm_J.js";function t(t,n,r){return e(()=>new Worker(new URL(`/assets/suite-table-worker-CtwQ60U0.js`,``+import.meta.url),{type:`module`}),t,n,r)}export{t};

@@ -1,0 +1,1 @@
+function e(e,t,n){t||(t=[]);var r=t.length++;return Object.defineProperty({},"_",{set:function(i){t[r]=i,e.apply(n,t)}})}export{e as t};

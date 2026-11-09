@@ -1,0 +1,221 @@
+{
+  "testedAt": "2026-10-13T14:01:14.937Z",
+  "environment": "local production bundle",
+  "browser": "chromium",
+  "sample": "synthetic documents only",
+  "checks": [
+    {
+      "route": "/",
+      "language": "en",
+      "pass": true
+    },
+    {
+      "route": "/zh/",
+      "language": "zh-CN",
+      "pass": true
+    },
+    {
+      "route": "/merge-pdf/",
+      "language": "en",
+      "pass": true
+    },
+    {
+      "route": "/zh/merge-pdf/",
+      "language": "zh-CN",
+      "pass": true
+    },
+    {
+      "route": "/split-pdf/",
+      "language": "en",
+      "pass": true
+    },
+    {
+      "route": "/zh/split-pdf/",
+      "language": "zh-CN",
+      "pass": true
+    },
+    {
+      "route": "/extract-pdf-pages/",
+      "language": "en",
+      "pass": true
+    },
+    {
+      "route": "/zh/extract-pdf-pages/",
+      "language": "zh-CN",
+      "pass": true
+    },
+    {
+      "route": "/compress-pdf/",
+      "language": "en",
+      "pass": true
+    },
+    {
+      "route": "/zh/compress-pdf/",
+      "language": "zh-CN",
+      "pass": true
+    },
+    {
+      "route": "/privacy/",
+      "language": "en",
+      "pass": true
+    },
+    {
+      "route": "/zh/privacy/",
+      "language": "zh-CN",
+      "pass": true
+    },
+    {
+      "route": "/no-upload-pdf/",
+      "language": "en",
+      "pass": true
+    },
+    {
+      "route": "/zh/no-upload-pdf/",
+      "language": "zh-CN",
+      "pass": true
+    },
+    {
+      "route": "/verify-no-upload/",
+      "language": "en",
+      "pass": true
+    },
+    {
+      "route": "/zh/verify-no-upload/",
+      "language": "zh-CN",
+      "pass": true
+    }
+  ],
+  "outputs": [
+    {
+      "label": "combined",
+      "results": [
+        {
+          "pages": 4,
+          "widths": [
+            207,
+            202,
+            203,
+            204
+          ],
+          "bytes": 1536
+        }
+      ]
+    },
+    {
+      "label": "extract-pdf-pages",
+      "results": [
+        {
+          "pages": 3,
+          "widths": [
+            202,
+            203,
+            204
+          ],
+          "bytes": 1320
+        },
+        {
+          "pages": 1,
+          "widths": [
+            207
+          ],
+          "bytes": 864
+        }
+      ]
+    },
+    {
+      "label": "split-pdf",
+      "results": [
+        {
+          "pages": 3,
+          "widths": [
+            201,
+            202,
+            203
+          ],
+          "bytes": 1321
+        },
+        {
+          "pages": 3,
+          "widths": [
+            204,
+            205,
+            206
+          ],
+          "bytes": 1319
+        },
+        {
+          "pages": 3,
+          "widths": [
+            207,
+            208,
+            209
+          ],
+          "bytes": 1321
+        },
+        {
+          "pages": 1,
+          "widths": [
+            210
+          ],
+          "bytes": 867
+        }
+      ]
+    },
+    {
+      "label": "delete-pdf-pages",
+      "results": [
+        {
+          "pages": 6,
+          "widths": [
+            201,
+            205,
+            206,
+            208,
+            209,
+            210
+          ],
+          "bytes": 2843
+        }
+      ]
+    },
+    {
+      "label": "text-only-compression",
+      "results": [
+        {
+          "pages": 10,
+          "widths": [
+            201,
+            202,
+            203,
+            204,
+            205,
+            206,
+            207,
+            208,
+            209,
+            210
+          ],
+          "bytes": 2854
+        }
+      ]
+    },
+    {
+      "label": "image-compression",
+      "results": [
+        {
+          "pages": 1,
+          "widths": [
+            600
+          ],
+          "bytes": 714868
+        }
+      ]
+    }
+  ],
+  "imageCompression": {
+    "inputBytes": 3290545,
+    "outputBytes": 714868
+  },
+  "pageErrors": [],
+  "passed": true
+}

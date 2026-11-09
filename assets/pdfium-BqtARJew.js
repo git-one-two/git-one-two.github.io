@@ -1,0 +1,1 @@
+var e=`/assets/pdfium-BJ2Yip8Q.wasm`;export{e as default};

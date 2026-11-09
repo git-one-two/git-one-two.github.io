@@ -1,0 +1,1 @@
+import{p as e}from"./runtime-core.esm-bundler-xVQr-Bhk.js";import{r as t}from"./main-B_xqFXXS.js";function n(n){return e({loader:n,loadingComponent:t,errorComponent:t,delay:100,timeout:2e4})}export{n as t};

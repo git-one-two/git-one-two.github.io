@@ -1,0 +1,1 @@
+export{ZipReader,t as getEntryDataDescriptorLength}from"./zip.js-CGqWdRiG.js";

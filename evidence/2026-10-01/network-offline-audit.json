@@ -1,0 +1,2961 @@
+{
+  "tested_at": "2026-10-01T13:44:17.741Z",
+  "production_origin": "https://veyneo.com",
+  "browser_version": "154.0.8037.59",
+  "os": {
+    "platform": "win32",
+    "release": "10.0.26200",
+    "arch": "x64"
+  },
+  "fixture_type": "synthetic, non-sensitive",
+  "capture": "Playwright request/response recording; offline set before selection; downloaded output reparsed with pdf-lib",
+  "scope": "sampled tools only; desktop Chrome; not all tools, devices or future versions",
+  "results": [
+    {
+      "tool": "merge-pdf",
+      "mode": "online",
+      "url": "https://veyneo.com/merge-pdf/?utm_source=internal&utm_campaign=seo-evidence-qa",
+      "loaded_status": 200,
+      "offline_before_selection": false,
+      "input_files": [
+        {
+          "name": "sample-a.pdf",
+          "bytes": 1632,
+          "pages": 4
+        },
+        {
+          "name": "sample-b.pdf",
+          "bytes": 1144,
+          "pages": 2
+        }
+      ],
+      "selection_request_count": 0,
+      "network": [
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/assets/pdf-BtsWkHN1.js",
+          "method": "GET",
+          "resource_type": "script",
+          "request_body_bytes": 0,
+          "payload": null,
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/assets/classPrivateFieldGet2-D6lRHD2E.js",
+          "method": "GET",
+          "resource_type": "script",
+          "request_body_bytes": 0,
+          "payload": null,
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/assets/toSetter-Ck9JtHOe.js",
+          "method": "GET",
+          "resource_type": "script",
+          "request_body_bytes": 0,
+          "payload": null,
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/api/analytics/events",
+          "method": "POST",
+          "resource_type": "fetch",
+          "request_body_bytes": 7596,
+          "payload": {
+            "events": [
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "session_start",
+                "event_time": "2026-10-01T13:43:40.396Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "merge",
+                  "page_type": "tool",
+                  "canonical_path": "/merge-pdf",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "is_returning_visitor": false,
+                  "days_since_first_seen_bucket": "0",
+                  "days_since_last_seen_bucket": "0"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "page_view",
+                "event_time": "2026-10-01T13:43:40.397Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "merge",
+                  "page_type": "tool",
+                  "canonical_path": "/merge-pdf",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "canonical_path": "/merge-pdf",
+                  "page_type": "tool",
+                  "route_name": "merge",
+                  "tool_key": "merge"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "tool_view",
+                "event_time": "2026-10-01T13:43:40.397Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "merge",
+                  "page_type": "tool",
+                  "canonical_path": "/merge-pdf",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "tool_key": "merge",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "entry_point": "internal_nav"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "tool_start",
+                "event_time": "2026-10-01T13:43:41.040Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "merge",
+                  "page_type": "tool",
+                  "canonical_path": "/merge-pdf",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "merge",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "entry_point": "file_picker"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "file_selected",
+                "event_time": "2026-10-01T13:43:41.094Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "merge",
+                  "page_type": "tool",
+                  "canonical_path": "/merge-pdf",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "merge",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "file_count_bucket": "2",
+                  "file_size_bucket": "lt_1mb",
+                  "input_type": "pdf"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "process_start",
+                "event_time": "2026-10-01T13:43:41.827Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "merge",
+                  "page_type": "tool",
+                  "canonical_path": "/merge-pdf",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "merge",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "attempt_index": 1,
+                  "file_count_bucket": "2",
+                  "file_size_bucket": "lt_1mb"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "process_success",
+                "event_time": "2026-10-01T13:43:41.856Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "merge",
+                  "page_type": "tool",
+                  "canonical_path": "/merge-pdf",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "merge",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "attempt_index": 1,
+                  "file_count_bucket": "2",
+                  "file_size_bucket": "lt_1mb",
+                  "duration_ms": 28,
+                  "read_ms": 4,
+                  "process_ms": 22,
+                  "write_ms": 2,
+                  "result_count_bucket": "1",
+                  "result_size_bucket": "lt_1mb",
+                  "result_type": "pdf"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "page_view",
+                "event_time": "2026-10-01T13:43:41.859Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "result",
+                  "page_type": "result",
+                  "canonical_path": "/result",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "canonical_path": "/result",
+                  "page_type": "result",
+                  "route_name": "result"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "result_view",
+                "event_time": "2026-10-01T13:43:41.869Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "result",
+                  "page_type": "result",
+                  "canonical_path": "/result",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "merge",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "attempt_index": 1,
+                  "result_count_bucket": "1",
+                  "result_type": "pdf"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "page_view",
+                "event_time": "2026-10-01T13:43:41.882Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "result",
+                  "page_type": "result",
+                  "canonical_path": "/result",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "canonical_path": "/result",
+                  "page_type": "result",
+                  "route_name": "result"
+                }
+              }
+            ]
+          },
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/cdn-cgi/rum?",
+          "method": "POST",
+          "resource_type": "ping",
+          "request_body_bytes": 0,
+          "payload": null,
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/cdn-cgi/rum?",
+          "method": "POST",
+          "resource_type": "xhr",
+          "request_body_bytes": 373,
+          "payload": {
+            "startTime": 1790862221826,
+            "pageloadId": "8a0749c4-193e-4a37-aab0-d5560913a090",
+            "n": 2,
+            "eventType": 1,
+            "nt": "soft-navigation",
+            "location": "https://veyneo.com/merge-pdf/",
+            "referrer": "https://veyneo.com/merge-pdf/",
+            "versions": {
+              "fl": "2024.11.0",
+              "js": "2026.9.1",
+              "timings": 1
+            },
+            "bi": {
+              "be": "Blink",
+              "bev": "154",
+              "bv": "154",
+              "ov": "11"
+            },
+            "siteToken": "e3bbf6cda086479d96c53d1f85a12947",
+            "st": 2
+          },
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/assets/pdf.worker.min-B9lCp-Uy.js",
+          "method": "GET",
+          "resource_type": "script",
+          "request_body_bytes": 0,
+          "payload": null,
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/assets/pdf_viewer-AsN5doIu.js",
+          "method": "GET",
+          "resource_type": "script",
+          "request_body_bytes": 0,
+          "payload": null,
+          "document_content_detected": false
+        },
+        {
+          "phase": "download",
+          "url": "https://veyneo.com/api/analytics/events",
+          "method": "POST",
+          "resource_type": "fetch",
+          "request_body_bytes": 820,
+          "payload": {
+            "events": [
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "result_download",
+                "event_time": "2026-10-01T13:43:42.428Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "result",
+                  "page_type": "result",
+                  "canonical_path": "/result",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "merge",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "attempt_index": 1,
+                  "download_scope": "single",
+                  "result_count_bucket": "1"
+                }
+              }
+            ]
+          },
+          "document_content_detected": false
+        }
+      ],
+      "responses": [
+        {
+          "url": "https://veyneo.com/cdn-cgi/rum?",
+          "status": 204
+        },
+        {
+          "url": "https://veyneo.com/assets/toSetter-Ck9JtHOe.js",
+          "status": 200
+        },
+        {
+          "url": "https://veyneo.com/assets/classPrivateFieldGet2-D6lRHD2E.js",
+          "status": 200
+        },
+        {
+          "url": "https://veyneo.com/cdn-cgi/rum?",
+          "status": 204
+        },
+        {
+          "url": "https://veyneo.com/assets/pdf-BtsWkHN1.js",
+          "status": 200
+        },
+        {
+          "url": "https://veyneo.com/assets/pdf.worker.min-B9lCp-Uy.js",
+          "status": 200
+        },
+        {
+          "url": "https://veyneo.com/api/analytics/events",
+          "status": 202
+        },
+        {
+          "url": "https://veyneo.com/assets/pdf_viewer-AsN5doIu.js",
+          "status": 200
+        },
+        {
+          "url": "https://veyneo.com/api/analytics/events",
+          "status": 202
+        }
+      ],
+      "assets": [
+        "https://veyneo.com/assets/index-Ddsii6hH.js",
+        "https://veyneo.com/assets/rolldown-runtime-hePW80VL.js",
+        "https://veyneo.com/assets/index-DvhdxMR5.css"
+      ],
+      "output_bytes": 2110,
+      "output_pages": 6,
+      "expected_pages": 6,
+      "output_sha256": "a69e6991de2025d4e18cfd338c28d4d473ad14e197f175cce8d0d78c6387c01d",
+      "download_completed": true,
+      "screenshot": "merge-pdf-online.png",
+      "errors": [],
+      "pass": true
+    },
+    {
+      "tool": "split-pdf",
+      "mode": "online",
+      "url": "https://veyneo.com/split-pdf/?utm_source=internal&utm_campaign=seo-evidence-qa",
+      "loaded_status": 200,
+      "offline_before_selection": false,
+      "input_files": [
+        {
+          "name": "sample-a.pdf",
+          "bytes": 1632,
+          "pages": 4
+        }
+      ],
+      "selection_request_count": 0,
+      "network": [
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/api/analytics/events",
+          "method": "POST",
+          "resource_type": "fetch",
+          "request_body_bytes": 4500,
+          "payload": {
+            "events": [
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "session_start",
+                "event_time": "2026-10-01T13:43:46.581Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "split",
+                  "page_type": "tool",
+                  "canonical_path": "/split-pdf",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "is_returning_visitor": false,
+                  "days_since_first_seen_bucket": "0",
+                  "days_since_last_seen_bucket": "0"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "page_view",
+                "event_time": "2026-10-01T13:43:46.582Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "split",
+                  "page_type": "tool",
+                  "canonical_path": "/split-pdf",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "canonical_path": "/split-pdf",
+                  "page_type": "tool",
+                  "route_name": "split",
+                  "tool_key": "split"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "tool_view",
+                "event_time": "2026-10-01T13:43:46.582Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "split",
+                  "page_type": "tool",
+                  "canonical_path": "/split-pdf",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "tool_key": "split",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "entry_point": "internal_nav"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "tool_start",
+                "event_time": "2026-10-01T13:43:47.221Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "split",
+                  "page_type": "tool",
+                  "canonical_path": "/split-pdf",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "split",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "entry_point": "file_picker"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "file_selected",
+                "event_time": "2026-10-01T13:43:47.268Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "split",
+                  "page_type": "tool",
+                  "canonical_path": "/split-pdf",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "split",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "file_count_bucket": "1",
+                  "file_size_bucket": "lt_1mb",
+                  "input_type": "pdf"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "process_start",
+                "event_time": "2026-10-01T13:43:48.079Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "split",
+                  "page_type": "tool",
+                  "canonical_path": "/split-pdf",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "split",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "attempt_index": 1,
+                  "file_count_bucket": "1",
+                  "file_size_bucket": "lt_1mb"
+                }
+              }
+            ]
+          },
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/assets/pdf-BtsWkHN1.js",
+          "method": "GET",
+          "resource_type": "script",
+          "request_body_bytes": 0,
+          "payload": null,
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/assets/classPrivateFieldGet2-D6lRHD2E.js",
+          "method": "GET",
+          "resource_type": "script",
+          "request_body_bytes": 0,
+          "payload": null,
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/assets/toSetter-Ck9JtHOe.js",
+          "method": "GET",
+          "resource_type": "script",
+          "request_body_bytes": 0,
+          "payload": null,
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/cdn-cgi/rum?",
+          "method": "POST",
+          "resource_type": "ping",
+          "request_body_bytes": 0,
+          "payload": null,
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/cdn-cgi/rum?",
+          "method": "POST",
+          "resource_type": "xhr",
+          "request_body_bytes": 373,
+          "payload": {
+            "startTime": 1790862228076,
+            "pageloadId": "9e52ae0f-ee26-446f-b1ad-81f517e9637e",
+            "n": 2,
+            "eventType": 1,
+            "nt": "soft-navigation",
+            "location": "https://veyneo.com/split-pdf/",
+            "referrer": "https://veyneo.com/split-pdf/",
+            "versions": {
+              "fl": "2024.11.0",
+              "js": "2026.9.1",
+              "timings": 1
+            },
+            "bi": {
+              "be": "Blink",
+              "bev": "154",
+              "bv": "154",
+              "ov": "11"
+            },
+            "siteToken": "e3bbf6cda086479d96c53d1f85a12947",
+            "st": 2
+          },
+          "document_content_detected": false
+        },
+        {
+          "phase": "download",
+          "url": "https://veyneo.com/assets/pdf.worker.min-B9lCp-Uy.js",
+          "method": "GET",
+          "resource_type": "script",
+          "request_body_bytes": 0,
+          "payload": null,
+          "document_content_detected": false
+        },
+        {
+          "phase": "download",
+          "url": "https://veyneo.com/api/analytics/events",
+          "method": "POST",
+          "resource_type": "fetch",
+          "request_body_bytes": 3945,
+          "payload": {
+            "events": [
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "process_success",
+                "event_time": "2026-10-01T13:43:48.102Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "split",
+                  "page_type": "tool",
+                  "canonical_path": "/split-pdf",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "split",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "attempt_index": 1,
+                  "file_count_bucket": "1",
+                  "file_size_bucket": "lt_1mb",
+                  "duration_ms": 23,
+                  "read_ms": 4,
+                  "parse_ms": 6,
+                  "process_ms": 1,
+                  "serialize_ms": 8,
+                  "write_ms": 3,
+                  "result_count_bucket": "2",
+                  "result_size_bucket": "lt_1mb",
+                  "result_type": "pdf"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "page_view",
+                "event_time": "2026-10-01T13:43:48.106Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "result",
+                  "page_type": "result",
+                  "canonical_path": "/result",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "canonical_path": "/result",
+                  "page_type": "result",
+                  "route_name": "result"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "result_view",
+                "event_time": "2026-10-01T13:43:48.113Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "result",
+                  "page_type": "result",
+                  "canonical_path": "/result",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "split",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "attempt_index": 1,
+                  "result_count_bucket": "2",
+                  "result_type": "pdf"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "page_view",
+                "event_time": "2026-10-01T13:43:48.135Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "result",
+                  "page_type": "result",
+                  "canonical_path": "/result",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "canonical_path": "/result",
+                  "page_type": "result",
+                  "route_name": "result"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "result_download",
+                "event_time": "2026-10-01T13:43:48.686Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "result",
+                  "page_type": "result",
+                  "canonical_path": "/result",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "split",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "attempt_index": 1,
+                  "download_scope": "single",
+                  "result_count_bucket": "2"
+                }
+              }
+            ]
+          },
+          "document_content_detected": false
+        },
+        {
+          "phase": "download",
+          "url": "https://veyneo.com/assets/pdf_viewer-AsN5doIu.js",
+          "method": "GET",
+          "resource_type": "script",
+          "request_body_bytes": 0,
+          "payload": null,
+          "document_content_detected": false
+        }
+      ],
+      "responses": [
+        {
+          "url": "https://veyneo.com/assets/toSetter-Ck9JtHOe.js",
+          "status": 200
+        },
+        {
+          "url": "https://veyneo.com/assets/classPrivateFieldGet2-D6lRHD2E.js",
+          "status": 200
+        },
+        {
+          "url": "https://veyneo.com/cdn-cgi/rum?",
+          "status": 204
+        },
+        {
+          "url": "https://veyneo.com/cdn-cgi/rum?",
+          "status": 204
+        },
+        {
+          "url": "https://veyneo.com/api/analytics/events",
+          "status": 202
+        },
+        {
+          "url": "https://veyneo.com/assets/pdf-BtsWkHN1.js",
+          "status": 200
+        },
+        {
+          "url": "https://veyneo.com/assets/pdf.worker.min-B9lCp-Uy.js",
+          "status": 200
+        },
+        {
+          "url": "https://veyneo.com/api/analytics/events",
+          "status": 202
+        },
+        {
+          "url": "https://veyneo.com/assets/pdf_viewer-AsN5doIu.js",
+          "status": 200
+        }
+      ],
+      "assets": [
+        "https://veyneo.com/assets/index-Ddsii6hH.js",
+        "https://veyneo.com/assets/rolldown-runtime-hePW80VL.js",
+        "https://veyneo.com/assets/index-DvhdxMR5.css"
+      ],
+      "output_bytes": 1149,
+      "output_pages": 2,
+      "expected_pages": 2,
+      "output_sha256": "fd451325ed5f8df8a9a1fc2a8133060f62da6eb42bc743417b7a302429bcc12a",
+      "download_completed": true,
+      "screenshot": "split-pdf-online.png",
+      "errors": [],
+      "pass": true
+    },
+    {
+      "tool": "extract-pdf-pages",
+      "mode": "online",
+      "url": "https://veyneo.com/extract-pdf-pages/?utm_source=internal&utm_campaign=seo-evidence-qa",
+      "loaded_status": 200,
+      "offline_before_selection": false,
+      "input_files": [
+        {
+          "name": "sample-a.pdf",
+          "bytes": 1632,
+          "pages": 4
+        }
+      ],
+      "selection_request_count": 0,
+      "network": [
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/assets/pdf-BtsWkHN1.js",
+          "method": "GET",
+          "resource_type": "script",
+          "request_body_bytes": 0,
+          "payload": null,
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/assets/classPrivateFieldGet2-D6lRHD2E.js",
+          "method": "GET",
+          "resource_type": "script",
+          "request_body_bytes": 0,
+          "payload": null,
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/assets/toSetter-Ck9JtHOe.js",
+          "method": "GET",
+          "resource_type": "script",
+          "request_body_bytes": 0,
+          "payload": null,
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/api/analytics/events",
+          "method": "POST",
+          "resource_type": "fetch",
+          "request_body_bytes": 7703,
+          "payload": {
+            "events": [
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "session_start",
+                "event_time": "2026-10-01T13:43:53.652Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "split",
+                  "page_type": "tool",
+                  "canonical_path": "/extract-pdf-pages",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "is_returning_visitor": false,
+                  "days_since_first_seen_bucket": "0",
+                  "days_since_last_seen_bucket": "0"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "page_view",
+                "event_time": "2026-10-01T13:43:53.653Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "split",
+                  "page_type": "tool",
+                  "canonical_path": "/extract-pdf-pages",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "canonical_path": "/extract-pdf-pages",
+                  "page_type": "tool",
+                  "route_name": "split",
+                  "tool_key": "extract"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "tool_view",
+                "event_time": "2026-10-01T13:43:53.653Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "split",
+                  "page_type": "tool",
+                  "canonical_path": "/extract-pdf-pages",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "tool_key": "extract",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "entry_point": "internal_nav"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "tool_start",
+                "event_time": "2026-10-01T13:43:54.280Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "split",
+                  "page_type": "tool",
+                  "canonical_path": "/extract-pdf-pages",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "extract",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "entry_point": "file_picker"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "file_selected",
+                "event_time": "2026-10-01T13:43:54.325Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "split",
+                  "page_type": "tool",
+                  "canonical_path": "/extract-pdf-pages",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "extract",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "file_count_bucket": "1",
+                  "file_size_bucket": "lt_1mb",
+                  "input_type": "pdf"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "process_start",
+                "event_time": "2026-10-01T13:43:55.085Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "split",
+                  "page_type": "tool",
+                  "canonical_path": "/extract-pdf-pages",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "extract",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "attempt_index": 1,
+                  "file_count_bucket": "1",
+                  "file_size_bucket": "lt_1mb"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "process_success",
+                "event_time": "2026-10-01T13:43:55.114Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "split",
+                  "page_type": "tool",
+                  "canonical_path": "/extract-pdf-pages",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "extract",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "attempt_index": 1,
+                  "file_count_bucket": "1",
+                  "file_size_bucket": "lt_1mb",
+                  "duration_ms": 26,
+                  "read_ms": 5,
+                  "parse_ms": 9,
+                  "process_ms": 1,
+                  "serialize_ms": 8,
+                  "write_ms": 1,
+                  "result_count_bucket": "1",
+                  "result_size_bucket": "lt_1mb",
+                  "result_type": "pdf"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "page_view",
+                "event_time": "2026-10-01T13:43:55.117Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "result",
+                  "page_type": "result",
+                  "canonical_path": "/result",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "canonical_path": "/result",
+                  "page_type": "result",
+                  "route_name": "result"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "result_view",
+                "event_time": "2026-10-01T13:43:55.126Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "result",
+                  "page_type": "result",
+                  "canonical_path": "/result",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "extract",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "attempt_index": 1,
+                  "result_count_bucket": "1",
+                  "result_type": "pdf"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "page_view",
+                "event_time": "2026-10-01T13:43:55.146Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "result",
+                  "page_type": "result",
+                  "canonical_path": "/result",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "canonical_path": "/result",
+                  "page_type": "result",
+                  "route_name": "result"
+                }
+              }
+            ]
+          },
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/cdn-cgi/rum?",
+          "method": "POST",
+          "resource_type": "ping",
+          "request_body_bytes": 0,
+          "payload": null,
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/cdn-cgi/rum?",
+          "method": "POST",
+          "resource_type": "xhr",
+          "request_body_bytes": 389,
+          "payload": {
+            "startTime": 1790862235083,
+            "pageloadId": "993f26ff-4f44-4ce0-8858-892b57cd86a0",
+            "n": 2,
+            "eventType": 1,
+            "nt": "soft-navigation",
+            "location": "https://veyneo.com/extract-pdf-pages/",
+            "referrer": "https://veyneo.com/extract-pdf-pages/",
+            "versions": {
+              "fl": "2024.11.0",
+              "js": "2026.9.1",
+              "timings": 1
+            },
+            "bi": {
+              "be": "Blink",
+              "bev": "154",
+              "bv": "154",
+              "ov": "11"
+            },
+            "siteToken": "e3bbf6cda086479d96c53d1f85a12947",
+            "st": 2
+          },
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/assets/pdf.worker.min-B9lCp-Uy.js",
+          "method": "GET",
+          "resource_type": "script",
+          "request_body_bytes": 0,
+          "payload": null,
+          "document_content_detected": false
+        },
+        {
+          "phase": "download",
+          "url": "https://veyneo.com/assets/pdf_viewer-AsN5doIu.js",
+          "method": "GET",
+          "resource_type": "script",
+          "request_body_bytes": 0,
+          "payload": null,
+          "document_content_detected": false
+        },
+        {
+          "phase": "download",
+          "url": "https://veyneo.com/api/analytics/events",
+          "method": "POST",
+          "resource_type": "fetch",
+          "request_body_bytes": 822,
+          "payload": {
+            "events": [
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "result_download",
+                "event_time": "2026-10-01T13:43:55.693Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "result",
+                  "page_type": "result",
+                  "canonical_path": "/result",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "extract",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "attempt_index": 1,
+                  "download_scope": "single",
+                  "result_count_bucket": "1"
+                }
+              }
+            ]
+          },
+          "document_content_detected": false
+        }
+      ],
+      "responses": [
+        {
+          "url": "https://veyneo.com/cdn-cgi/rum?",
+          "status": 204
+        },
+        {
+          "url": "https://veyneo.com/cdn-cgi/rum?",
+          "status": 204
+        },
+        {
+          "url": "https://veyneo.com/assets/toSetter-Ck9JtHOe.js",
+          "status": 200
+        },
+        {
+          "url": "https://veyneo.com/assets/classPrivateFieldGet2-D6lRHD2E.js",
+          "status": 200
+        },
+        {
+          "url": "https://veyneo.com/assets/pdf-BtsWkHN1.js",
+          "status": 200
+        },
+        {
+          "url": "https://veyneo.com/api/analytics/events",
+          "status": 202
+        },
+        {
+          "url": "https://veyneo.com/assets/pdf.worker.min-B9lCp-Uy.js",
+          "status": 200
+        },
+        {
+          "url": "https://veyneo.com/assets/pdf_viewer-AsN5doIu.js",
+          "status": 200
+        },
+        {
+          "url": "https://veyneo.com/api/analytics/events",
+          "status": 202
+        }
+      ],
+      "assets": [
+        "https://veyneo.com/assets/index-Ddsii6hH.js",
+        "https://veyneo.com/assets/rolldown-runtime-hePW80VL.js",
+        "https://veyneo.com/assets/index-DvhdxMR5.css"
+      ],
+      "output_bytes": 1149,
+      "output_pages": 2,
+      "expected_pages": 2,
+      "output_sha256": "cb02d7cd970e58f8b9cd7f14fb36665a1383b75a898d18e198d4ec6c73f9984d",
+      "download_completed": true,
+      "screenshot": "extract-pdf-pages-online.png",
+      "errors": [],
+      "pass": true
+    },
+    {
+      "tool": "merge-pdf",
+      "mode": "offline",
+      "url": "https://veyneo.com/merge-pdf/?utm_source=internal&utm_campaign=seo-evidence-qa",
+      "loaded_status": 200,
+      "offline_before_selection": true,
+      "input_files": [
+        {
+          "name": "sample-a.pdf",
+          "bytes": 1632,
+          "pages": 4
+        },
+        {
+          "name": "sample-b.pdf",
+          "bytes": 1144,
+          "pages": 2
+        }
+      ],
+      "selection_request_count": 0,
+      "network": [
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/assets/pdf-BtsWkHN1.js",
+          "method": "GET",
+          "resource_type": "script",
+          "request_body_bytes": 0,
+          "payload": null,
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/assets/classPrivateFieldGet2-D6lRHD2E.js",
+          "method": "GET",
+          "resource_type": "script",
+          "request_body_bytes": 0,
+          "payload": null,
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/assets/toSetter-Ck9JtHOe.js",
+          "method": "GET",
+          "resource_type": "script",
+          "request_body_bytes": 0,
+          "payload": null,
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/api/analytics/events",
+          "method": "POST",
+          "resource_type": "fetch",
+          "request_body_bytes": 7596,
+          "payload": {
+            "events": [
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "session_start",
+                "event_time": "2026-10-01T13:44:00.180Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "merge",
+                  "page_type": "tool",
+                  "canonical_path": "/merge-pdf",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "is_returning_visitor": false,
+                  "days_since_first_seen_bucket": "0",
+                  "days_since_last_seen_bucket": "0"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "page_view",
+                "event_time": "2026-10-01T13:44:00.181Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "merge",
+                  "page_type": "tool",
+                  "canonical_path": "/merge-pdf",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "canonical_path": "/merge-pdf",
+                  "page_type": "tool",
+                  "route_name": "merge",
+                  "tool_key": "merge"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "tool_view",
+                "event_time": "2026-10-01T13:44:00.181Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "merge",
+                  "page_type": "tool",
+                  "canonical_path": "/merge-pdf",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "tool_key": "merge",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "entry_point": "internal_nav"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "tool_start",
+                "event_time": "2026-10-01T13:44:00.816Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "merge",
+                  "page_type": "tool",
+                  "canonical_path": "/merge-pdf",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "merge",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "entry_point": "file_picker"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "file_selected",
+                "event_time": "2026-10-01T13:44:00.864Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "merge",
+                  "page_type": "tool",
+                  "canonical_path": "/merge-pdf",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "merge",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "file_count_bucket": "2",
+                  "file_size_bucket": "lt_1mb",
+                  "input_type": "pdf"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "process_start",
+                "event_time": "2026-10-01T13:44:01.599Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "merge",
+                  "page_type": "tool",
+                  "canonical_path": "/merge-pdf",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "merge",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "attempt_index": 1,
+                  "file_count_bucket": "2",
+                  "file_size_bucket": "lt_1mb"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "process_success",
+                "event_time": "2026-10-01T13:44:01.631Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "merge",
+                  "page_type": "tool",
+                  "canonical_path": "/merge-pdf",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "merge",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "attempt_index": 1,
+                  "file_count_bucket": "2",
+                  "file_size_bucket": "lt_1mb",
+                  "duration_ms": 32,
+                  "read_ms": 7,
+                  "process_ms": 23,
+                  "write_ms": 1,
+                  "result_count_bucket": "1",
+                  "result_size_bucket": "lt_1mb",
+                  "result_type": "pdf"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "page_view",
+                "event_time": "2026-10-01T13:44:01.635Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "result",
+                  "page_type": "result",
+                  "canonical_path": "/result",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "canonical_path": "/result",
+                  "page_type": "result",
+                  "route_name": "result"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "result_view",
+                "event_time": "2026-10-01T13:44:01.644Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "result",
+                  "page_type": "result",
+                  "canonical_path": "/result",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "merge",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "attempt_index": 1,
+                  "result_count_bucket": "1",
+                  "result_type": "pdf"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "page_view",
+                "event_time": "2026-10-01T13:44:01.666Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "result",
+                  "page_type": "result",
+                  "canonical_path": "/result",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "canonical_path": "/result",
+                  "page_type": "result",
+                  "route_name": "result"
+                }
+              }
+            ]
+          },
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/cdn-cgi/rum?",
+          "method": "POST",
+          "resource_type": "ping",
+          "request_body_bytes": 0,
+          "payload": null,
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/cdn-cgi/rum?",
+          "method": "POST",
+          "resource_type": "xhr",
+          "request_body_bytes": 373,
+          "payload": {
+            "startTime": 1790862241598,
+            "pageloadId": "18c9be30-0207-4306-b259-e22e717ad780",
+            "n": 2,
+            "eventType": 1,
+            "nt": "soft-navigation",
+            "location": "https://veyneo.com/merge-pdf/",
+            "referrer": "https://veyneo.com/merge-pdf/",
+            "versions": {
+              "fl": "2024.11.0",
+              "js": "2026.9.1",
+              "timings": 1
+            },
+            "bi": {
+              "be": "Blink",
+              "bev": "154",
+              "bv": "154",
+              "ov": "11"
+            },
+            "siteToken": "e3bbf6cda086479d96c53d1f85a12947",
+            "st": 2
+          },
+          "document_content_detected": false
+        },
+        {
+          "phase": "download",
+          "url": "https://veyneo.com/api/analytics/events",
+          "method": "POST",
+          "resource_type": "fetch",
+          "request_body_bytes": 820,
+          "payload": {
+            "events": [
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "result_download",
+                "event_time": "2026-10-01T13:44:02.207Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "result",
+                  "page_type": "result",
+                  "canonical_path": "/result",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "merge",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "attempt_index": 1,
+                  "download_scope": "single",
+                  "result_count_bucket": "1"
+                }
+              }
+            ]
+          },
+          "document_content_detected": false
+        }
+      ],
+      "responses": [],
+      "assets": [
+        "https://veyneo.com/assets/index-Ddsii6hH.js",
+        "https://veyneo.com/assets/rolldown-runtime-hePW80VL.js",
+        "https://veyneo.com/assets/index-DvhdxMR5.css"
+      ],
+      "output_bytes": 2110,
+      "output_pages": 6,
+      "expected_pages": 6,
+      "output_sha256": "c74b801413bafe741e8bea2deeabe59de1e71438ee4208503086de33d60ec05b",
+      "download_completed": true,
+      "screenshot": "merge-pdf-offline.png",
+      "errors": [],
+      "pass": true
+    },
+    {
+      "tool": "split-pdf",
+      "mode": "offline",
+      "url": "https://veyneo.com/split-pdf/?utm_source=internal&utm_campaign=seo-evidence-qa",
+      "loaded_status": 200,
+      "offline_before_selection": true,
+      "input_files": [
+        {
+          "name": "sample-a.pdf",
+          "bytes": 1632,
+          "pages": 4
+        }
+      ],
+      "selection_request_count": 0,
+      "network": [
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/assets/pdf-BtsWkHN1.js",
+          "method": "GET",
+          "resource_type": "script",
+          "request_body_bytes": 0,
+          "payload": null,
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/assets/classPrivateFieldGet2-D6lRHD2E.js",
+          "method": "GET",
+          "resource_type": "script",
+          "request_body_bytes": 0,
+          "payload": null,
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/assets/toSetter-Ck9JtHOe.js",
+          "method": "GET",
+          "resource_type": "script",
+          "request_body_bytes": 0,
+          "payload": null,
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/api/analytics/events",
+          "method": "POST",
+          "resource_type": "fetch",
+          "request_body_bytes": 7625,
+          "payload": {
+            "events": [
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "session_start",
+                "event_time": "2026-10-01T13:44:06.549Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "split",
+                  "page_type": "tool",
+                  "canonical_path": "/split-pdf",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "is_returning_visitor": false,
+                  "days_since_first_seen_bucket": "0",
+                  "days_since_last_seen_bucket": "0"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "page_view",
+                "event_time": "2026-10-01T13:44:06.550Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "split",
+                  "page_type": "tool",
+                  "canonical_path": "/split-pdf",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "canonical_path": "/split-pdf",
+                  "page_type": "tool",
+                  "route_name": "split",
+                  "tool_key": "split"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "tool_view",
+                "event_time": "2026-10-01T13:44:06.551Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "split",
+                  "page_type": "tool",
+                  "canonical_path": "/split-pdf",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "tool_key": "split",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "entry_point": "internal_nav"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "tool_start",
+                "event_time": "2026-10-01T13:44:07.183Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "split",
+                  "page_type": "tool",
+                  "canonical_path": "/split-pdf",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "split",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "entry_point": "file_picker"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "file_selected",
+                "event_time": "2026-10-01T13:44:07.254Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "split",
+                  "page_type": "tool",
+                  "canonical_path": "/split-pdf",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "split",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "file_count_bucket": "1",
+                  "file_size_bucket": "lt_1mb",
+                  "input_type": "pdf"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "process_start",
+                "event_time": "2026-10-01T13:44:08.017Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "split",
+                  "page_type": "tool",
+                  "canonical_path": "/split-pdf",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "split",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "attempt_index": 1,
+                  "file_count_bucket": "1",
+                  "file_size_bucket": "lt_1mb"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "process_success",
+                "event_time": "2026-10-01T13:44:08.043Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "split",
+                  "page_type": "tool",
+                  "canonical_path": "/split-pdf",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "split",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "attempt_index": 1,
+                  "file_count_bucket": "1",
+                  "file_size_bucket": "lt_1mb",
+                  "duration_ms": 25,
+                  "read_ms": 4,
+                  "parse_ms": 8,
+                  "process_ms": 1,
+                  "serialize_ms": 8,
+                  "write_ms": 2,
+                  "result_count_bucket": "2",
+                  "result_size_bucket": "lt_1mb",
+                  "result_type": "pdf"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "page_view",
+                "event_time": "2026-10-01T13:44:08.045Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "result",
+                  "page_type": "result",
+                  "canonical_path": "/result",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "canonical_path": "/result",
+                  "page_type": "result",
+                  "route_name": "result"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "result_view",
+                "event_time": "2026-10-01T13:44:08.053Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "result",
+                  "page_type": "result",
+                  "canonical_path": "/result",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "split",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "attempt_index": 1,
+                  "result_count_bucket": "2",
+                  "result_type": "pdf"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "page_view",
+                "event_time": "2026-10-01T13:44:08.076Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "result",
+                  "page_type": "result",
+                  "canonical_path": "/result",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "canonical_path": "/result",
+                  "page_type": "result",
+                  "route_name": "result"
+                }
+              }
+            ]
+          },
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/cdn-cgi/rum?",
+          "method": "POST",
+          "resource_type": "ping",
+          "request_body_bytes": 0,
+          "payload": null,
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/cdn-cgi/rum?",
+          "method": "POST",
+          "resource_type": "xhr",
+          "request_body_bytes": 373,
+          "payload": {
+            "startTime": 1790862248014,
+            "pageloadId": "311ad192-7fab-42a0-800a-01c65dc7b438",
+            "n": 2,
+            "eventType": 1,
+            "nt": "soft-navigation",
+            "location": "https://veyneo.com/split-pdf/",
+            "referrer": "https://veyneo.com/split-pdf/",
+            "versions": {
+              "fl": "2024.11.0",
+              "js": "2026.9.1",
+              "timings": 1
+            },
+            "bi": {
+              "be": "Blink",
+              "bev": "154",
+              "bv": "154",
+              "ov": "11"
+            },
+            "siteToken": "e3bbf6cda086479d96c53d1f85a12947",
+            "st": 2
+          },
+          "document_content_detected": false
+        },
+        {
+          "phase": "download",
+          "url": "https://veyneo.com/api/analytics/events",
+          "method": "POST",
+          "resource_type": "fetch",
+          "request_body_bytes": 820,
+          "payload": {
+            "events": [
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "result_download",
+                "event_time": "2026-10-01T13:44:08.626Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "result",
+                  "page_type": "result",
+                  "canonical_path": "/result",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "split",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "attempt_index": 1,
+                  "download_scope": "single",
+                  "result_count_bucket": "2"
+                }
+              }
+            ]
+          },
+          "document_content_detected": false
+        }
+      ],
+      "responses": [],
+      "assets": [
+        "https://veyneo.com/assets/index-Ddsii6hH.js",
+        "https://veyneo.com/assets/rolldown-runtime-hePW80VL.js",
+        "https://veyneo.com/assets/index-DvhdxMR5.css"
+      ],
+      "output_bytes": 1149,
+      "output_pages": 2,
+      "expected_pages": 2,
+      "output_sha256": "73671a6cf16c2df563589d6e128cbd54372fbbc477219e14a5c60051049d6246",
+      "download_completed": true,
+      "screenshot": "split-pdf-offline.png",
+      "errors": [],
+      "pass": true
+    },
+    {
+      "tool": "extract-pdf-pages",
+      "mode": "offline",
+      "url": "https://veyneo.com/extract-pdf-pages/?utm_source=internal&utm_campaign=seo-evidence-qa",
+      "loaded_status": 200,
+      "offline_before_selection": true,
+      "input_files": [
+        {
+          "name": "sample-a.pdf",
+          "bytes": 1632,
+          "pages": 4
+        }
+      ],
+      "selection_request_count": 0,
+      "network": [
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/assets/pdf-BtsWkHN1.js",
+          "method": "GET",
+          "resource_type": "script",
+          "request_body_bytes": 0,
+          "payload": null,
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/assets/classPrivateFieldGet2-D6lRHD2E.js",
+          "method": "GET",
+          "resource_type": "script",
+          "request_body_bytes": 0,
+          "payload": null,
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/assets/toSetter-Ck9JtHOe.js",
+          "method": "GET",
+          "resource_type": "script",
+          "request_body_bytes": 0,
+          "payload": null,
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/api/analytics/events",
+          "method": "POST",
+          "resource_type": "fetch",
+          "request_body_bytes": 7703,
+          "payload": {
+            "events": [
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "session_start",
+                "event_time": "2026-10-01T13:44:12.555Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "split",
+                  "page_type": "tool",
+                  "canonical_path": "/extract-pdf-pages",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "is_returning_visitor": false,
+                  "days_since_first_seen_bucket": "0",
+                  "days_since_last_seen_bucket": "0"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "page_view",
+                "event_time": "2026-10-01T13:44:12.555Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "split",
+                  "page_type": "tool",
+                  "canonical_path": "/extract-pdf-pages",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "canonical_path": "/extract-pdf-pages",
+                  "page_type": "tool",
+                  "route_name": "split",
+                  "tool_key": "extract"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "tool_view",
+                "event_time": "2026-10-01T13:44:12.556Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "split",
+                  "page_type": "tool",
+                  "canonical_path": "/extract-pdf-pages",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "tool_key": "extract",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "entry_point": "internal_nav"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "tool_start",
+                "event_time": "2026-10-01T13:44:13.182Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "split",
+                  "page_type": "tool",
+                  "canonical_path": "/extract-pdf-pages",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "extract",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "entry_point": "file_picker"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "file_selected",
+                "event_time": "2026-10-01T13:44:13.226Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "split",
+                  "page_type": "tool",
+                  "canonical_path": "/extract-pdf-pages",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "extract",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "file_count_bucket": "1",
+                  "file_size_bucket": "lt_1mb",
+                  "input_type": "pdf"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "process_start",
+                "event_time": "2026-10-01T13:44:13.987Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "split",
+                  "page_type": "tool",
+                  "canonical_path": "/extract-pdf-pages",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "extract",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "attempt_index": 1,
+                  "file_count_bucket": "1",
+                  "file_size_bucket": "lt_1mb"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "process_success",
+                "event_time": "2026-10-01T13:44:14.011Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "split",
+                  "page_type": "tool",
+                  "canonical_path": "/extract-pdf-pages",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "extract",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "attempt_index": 1,
+                  "file_count_bucket": "1",
+                  "file_size_bucket": "lt_1mb",
+                  "duration_ms": 22,
+                  "read_ms": 4,
+                  "parse_ms": 6,
+                  "process_ms": 1,
+                  "serialize_ms": 9,
+                  "write_ms": 1,
+                  "result_count_bucket": "1",
+                  "result_size_bucket": "lt_1mb",
+                  "result_type": "pdf"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "page_view",
+                "event_time": "2026-10-01T13:44:14.013Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "result",
+                  "page_type": "result",
+                  "canonical_path": "/result",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "canonical_path": "/result",
+                  "page_type": "result",
+                  "route_name": "result"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "result_view",
+                "event_time": "2026-10-01T13:44:14.020Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "result",
+                  "page_type": "result",
+                  "canonical_path": "/result",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "extract",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "attempt_index": 1,
+                  "result_count_bucket": "1",
+                  "result_type": "pdf"
+                }
+              },
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "page_view",
+                "event_time": "2026-10-01T13:44:14.040Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "result",
+                  "page_type": "result",
+                  "canonical_path": "/result",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "canonical_path": "/result",
+                  "page_type": "result",
+                  "route_name": "result"
+                }
+              }
+            ]
+          },
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/cdn-cgi/rum?",
+          "method": "POST",
+          "resource_type": "ping",
+          "request_body_bytes": 0,
+          "payload": null,
+          "document_content_detected": false
+        },
+        {
+          "phase": "processing",
+          "url": "https://veyneo.com/cdn-cgi/rum?",
+          "method": "POST",
+          "resource_type": "xhr",
+          "request_body_bytes": 389,
+          "payload": {
+            "startTime": 1790862253985,
+            "pageloadId": "890e4055-a9fe-4e27-b20d-60cb6839272e",
+            "n": 2,
+            "eventType": 1,
+            "nt": "soft-navigation",
+            "location": "https://veyneo.com/extract-pdf-pages/",
+            "referrer": "https://veyneo.com/extract-pdf-pages/",
+            "versions": {
+              "fl": "2024.11.0",
+              "js": "2026.9.1",
+              "timings": 1
+            },
+            "bi": {
+              "be": "Blink",
+              "bev": "154",
+              "bv": "154",
+              "ov": "11"
+            },
+            "siteToken": "e3bbf6cda086479d96c53d1f85a12947",
+            "st": 2
+          },
+          "document_content_detected": false
+        },
+        {
+          "phase": "download",
+          "url": "https://veyneo.com/api/analytics/events",
+          "method": "POST",
+          "resource_type": "fetch",
+          "request_body_bytes": 822,
+          "payload": {
+            "events": [
+              {
+                "schema_version": 1,
+                "event_id": "[synthetic-id-redacted]",
+                "event_name": "result_download",
+                "event_time": "2026-10-01T13:44:14.585Z",
+                "anonymous_user_id": "[synthetic-id-redacted]",
+                "session_id": "[synthetic-id-redacted]",
+                "context": {
+                  "app_version": "dev",
+                  "deployment_region": "global",
+                  "environment": "production",
+                  "language": "en",
+                  "route_name": "result",
+                  "page_type": "result",
+                  "canonical_path": "/result",
+                  "device_class": "desktop",
+                  "browser_family": "chrome",
+                  "os_family": "windows",
+                  "source_type": "internal",
+                  "utm_source": "internal",
+                  "utm_campaign": "seo-evidence-qa"
+                },
+                "properties": {
+                  "task_id": "[synthetic-id-redacted]",
+                  "tool_key": "extract",
+                  "tool_group": "pdf-pages",
+                  "processing_mode": "local",
+                  "attempt_index": 1,
+                  "download_scope": "single",
+                  "result_count_bucket": "1"
+                }
+              }
+            ]
+          },
+          "document_content_detected": false
+        }
+      ],
+      "responses": [],
+      "assets": [
+        "https://veyneo.com/assets/index-Ddsii6hH.js",
+        "https://veyneo.com/assets/rolldown-runtime-hePW80VL.js",
+        "https://veyneo.com/assets/index-DvhdxMR5.css"
+      ],
+      "output_bytes": 1150,
+      "output_pages": 2,
+      "expected_pages": 2,
+      "output_sha256": "1b5ccb9cd74bf2ffe4ca4272f214dbed611bbef8648e3c23670fd8e5f76a3d88",
+      "download_completed": true,
+      "screenshot": "extract-pdf-pages-offline.png",
+      "errors": [],
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "production_deployment": "f79af4c9-eb0e-4e83-a92c-0a789436cddf",
+  "production_source_commit": "ef33f47ec642dd0deb7db454533dff2ae5e7c54e"
+}

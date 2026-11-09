@@ -1,0 +1,1 @@
+function e(e,t){if(t.has(e))throw TypeError(`Cannot initialize the same private elements twice on an object`)}function t(t,n){e(t,n),n.add(t)}export{e as n,t};

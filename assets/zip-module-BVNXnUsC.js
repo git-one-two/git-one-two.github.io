@@ -1,0 +1,1 @@
+var e=`/assets/zip-module-CIooyN6H.wasm`;export{e as default};

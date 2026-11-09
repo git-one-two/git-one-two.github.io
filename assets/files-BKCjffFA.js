@@ -1,0 +1,1 @@
+import{r as e}from"./rolldown-runtime-BCiCTKAo.js";import{t}from"./worker-job-CEZMpm_J.js";var n=e({fileSuiteJob:()=>r});function r(e,n,r){return t(()=>new Worker(new URL(`/assets/suite-files-worker-BlLPdwrH.js`,``+import.meta.url),{type:`module`}),e,n,r,3e5)}export{n,r as t};

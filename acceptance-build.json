@@ -1,0 +1,8 @@
+{
+  "kind": "acceptance-preview",
+  "date": "2026-11-10",
+  "testedBuild": 88,
+  "indexSHA256": "ff89e15a8fc389c3f06a0b7afd5aa2d2d81d39dafba3707768e468b49d61cebe",
+  "publicRoutes": 280,
+  "backend": "Static preview; no cloud conversion, AI billing or account backend."
+}

@@ -1,0 +1,1 @@
+(async()=>{let e=!1;try{if(typeof OffscreenCanvas<`u`&&typeof createImageBitmap<`u`&&typeof ImageData<`u`){let t=new OffscreenCanvas(1,1);e=!!t.getContext(`2d`)&&typeof t.convertToBlob==`function`&&(await t.convertToBlob({type:`image/png`})).type===`image/png`}}catch{}self.postMessage({available:e})})();

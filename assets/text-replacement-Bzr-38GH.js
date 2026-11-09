@@ -1,0 +1,1 @@
+function e(e,t){if(typeof t!=`string`||t.length>1e3||/[\0\r\n]/.test(t))return{unsupported:[],longer:!1,error:`文字过长或包含不支持的换行`};let n=new Set(e),r=[...new Set([...t].filter(e=>e.codePointAt(0)>126&&!n.has(e)))];return{unsupported:r,longer:t.length>e.length,error:r.length?`新字符不在此文字对象的已验证范围，请使用原文已有字符或基础拉丁字符`:``}}export{e as t};

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "jsquash-Makefile",
+    "url": "https://github.com/jamsinclair/jSquash/blob/b7fa9ac9ec02f224847ad23d19d115f9e296a368/packages/avif/codec/Makefile",
+    "bytes": 4861,
+    "sha256": "3b51474f9d2d7490a5c299c513e54264f0fcb1680773fb418d8d5f41f876be3d"
+  },
+  {
+    "name": "jsquash-helper.Makefile",
+    "url": "https://github.com/jamsinclair/jSquash/blob/b7fa9ac9ec02f224847ad23d19d115f9e296a368/packages/avif/codec/helper.Makefile",
+    "bytes": 2357,
+    "sha256": "939b17c964940abb5ab5c2a07e522bb58fa0069c96a47ddf2b7ef6848c50fc7c"
+  },
+  {
+    "name": "libavif-LICENSE",
+    "url": "https://github.com/AOMediaCodec/libavif/blob/v1.0.1/LICENSE",
+    "bytes": 18799,
+    "sha256": "10952217a6d404de8bf8a997fbea9b88f682df1fe98cb9b9f467ade641525639"
+  },
+  {
+    "name": "libaom-LICENSE",
+    "url": "https://aomedia.googlesource.com/aom/+/v3.7.0/LICENSE",
+    "bytes": 1316,
+    "sha256": "4764a286d8b2faeaf42f4418e7d7a28d58fc8fd4d00a3d0a7f44b0a4099de7f2"
+  },
+  {
+    "name": "libaom-PATENTS",
+    "url": "https://aomedia.googlesource.com/aom/+/v3.7.0/PATENTS",
+    "bytes": 5701,
+    "sha256": "661fb8e504744e95587b556b94a58343448300606a41bea8c7a9b97125696e61"
+  },
+  {
+    "name": "libwebp-COPYING",
+    "url": "https://github.com/webmproject/libwebp/blob/e2c85878f6a33f29948b43d3492d9cdaf801aa54/COPYING",
+    "bytes": 1496,
+    "sha256": "5aec868f669e384a22372a4e8a1a6cd7d44c64cd451f960ca69cc170d1e13acf"
+  },
+  {
+    "name": "libwebp-PATENTS",
+    "url": "https://github.com/webmproject/libwebp/blob/e2c85878f6a33f29948b43d3492d9cdaf801aa54/PATENTS",
+    "bytes": 1436,
+    "sha256": "cc3273e0694ea5896145e0677699b53471b03ea43021ddc50e7923fbb9f5023c"
+  }
+]

@@ -1,0 +1,1 @@
+var e=`/assets/pdf.worker.min-plZxfLWY.mjs`;export{e as default};
